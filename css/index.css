@@ -23,3 +23,23 @@
      .logo {
        grid-column: 2;
      }
+
+/*checkbox and burger icon is now hidden, and our navbar looks normal again*/
+     #nav-toggle, .burger-menu {
+    display: hidden;
+  }
+
+/*burger icon shows when the menu is in mobile-mode, and for the menu-left to disappear*/
+  @media only screen and (max-width: 1025px) {
+    .burger-menu {
+      display: inline-block;
+    }
+
+    .left-menu {
+      display: none;
+    }
+  }
+/*changing size of burger icon*/
+  .burger-menu {
+    width: 40px;
+  }
