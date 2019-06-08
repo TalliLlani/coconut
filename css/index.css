@@ -1,5 +1,7 @@
+
 .nav-container {
     width: 100%;
+    background: black;
   }
 /*Our navbar now fits all screens in width, but if someone accesses our site on a very large monitor, we don't want our actual menu options to stretch across the entire space. We want to contain them within a certain width. To do this, we're going to set our "nav" to max-width: 1720px*/
   nav {
