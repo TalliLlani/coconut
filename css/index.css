@@ -30,7 +30,7 @@
   }
 
 /*burger icon shows when the menu is in mobile-mode, and for the menu-left to disappear*/
-  @media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1025px) {
     .burger-menu {
       display: inline-block;
     }
@@ -38,8 +38,10 @@
     .left-menu {
       display: none;
     }
+
+    #nav-toggle:checked ~ .left-menu {
+      display: grid;
+      grid-row: 2;
+    }
   }
-/*changing size of burger icon*/
-  .burger-menu {
-    width: 40px;
-  }
+     
