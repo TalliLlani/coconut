@@ -39,9 +39,13 @@
       display: none;
     }
 
+
     #nav-toggle:checked ~ .left-menu {
       display: grid;
       grid-row: 2;
     }
   }
-     
+
+  .burger-menu {
+      width: 40px;
+    }
