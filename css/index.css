@@ -75,8 +75,8 @@
 
 /*adding padding to the top and bottom of each left-menu link.*/
   .left-menu a {
-  padding: 10px 0;
-  margin-left: 15px;
+  padding: 40px 40px;
+  /*margin-left: 15px;*/
   font-size: 30px;
   font-weight: 300;
   letter-spacing: 0.5px;
@@ -85,13 +85,18 @@
 /*The logo will be the tallest element in our navbar (1st row), so we should style it now, so we can see what kind of height we get for our left-menu.*/
 .logo {
   font-size: 50px;
-  padding: 1rem;
+  padding: 2rem;
+  display: grid;
+  grid-row: 1;
+  grid-column: 2;
+  margin: auto;
 }
 
 /*align-self is a lovely css property we get to use because the container is a grid. With it, our left-menu is now centered in the navbar.*/
 .left-menu {
-  grid-column: 1;
-  align-self: center;
+  grid-column: 2;
+  grid-row: 2;
+  align-items: center;
 }
 
 /*Let's place the burger icon better.*/
