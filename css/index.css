@@ -1,6 +1,6 @@
 .nav-container {
     width: 100%;
-    background: black;
+    background: none;
   }
 
 /*Our navbar now fits all screens in width, but if someone accesses our site on a very large monitor, we don't want our actual menu options to stretch across the entire space. We want to contain them within a certain width. To do this, we're going to set our "nav" to max-width: 1720px*/
@@ -48,6 +48,14 @@
           display: grid;
           grid-row: 2;
         }
+
+        #nav-toggle:checked ~ .left-menu a {
+          font-size: 40px;
+        }
+
+        #nav-toggle:checked ~ .logo {
+          font-size: 80px;
+        }
       }
 
 
@@ -56,24 +64,25 @@
 
 /*Let's start by making the navbar font white and uppercase. I'm also going to add a different font. I'm using the free font 'Oswald' from Google Fonts.*/
       nav a {
-        color: white;
+        color: black;
         text-decoration: none;
         text-transform: uppercase;
-        font-family: 'Oswald', sans-serif;
+        /*font-family: 'Oswald', sans-serif;*/
+        font-family:'Shadows Into Light', cursive;
       }
 
 /*adding padding to the top and bottom of each left-menu link.*/
   .left-menu a {
   padding: 10px 0;
   margin-left: 15px;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 300;
   letter-spacing: 0.5px;
 }
 
 /*The logo will be the tallest element in our navbar (1st row), so we should style it now, so we can see what kind of height we get for our left-menu.*/
 .logo {
-  font-size: 40px;
+  font-size: 50px;
   padding: 1rem;
 }
 
@@ -91,10 +100,10 @@
 }
 
 nav a {
-  color: white;
+  color: black;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
 
   transition: .3s all ease-in-out;
 }
