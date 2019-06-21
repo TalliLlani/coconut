@@ -99,7 +99,7 @@
 
 /*The logo will be the tallest element in our navbar (1st row), so we should style it now, so we can see what kind of height we get for our left-menu.*/
 .logo {
-  font-size: 50px;
+  font-size: 80px;
   font-weight: bolder;
   padding: 2rem;
   display: grid;
