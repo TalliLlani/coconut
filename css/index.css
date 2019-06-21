@@ -42,8 +42,8 @@
          color: #f67280;
        }
 
-       .purple {
-          color: #6c5b7b;
+       .green {
+          color: #98ff98;
         }
 /*We want our menu to switch over to mobile-mode when the screensize is less than 1025px. Let's make the burger icon show when the menu is in mobile-mode, and for the menu-left to disappear.*/
 
