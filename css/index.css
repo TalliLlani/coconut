@@ -89,7 +89,7 @@
 
 /*adding padding to the top and bottom of each left-menu link.*/
   .left-menu a {
-  padding: 40px 40px;
+  /*padding: 40px 40px;*/
   /*margin-left: 15px;*/
   font-size: 30px;
   font-weight: 300;
