@@ -32,20 +32,56 @@
 
 
     .dgrey {
-       color: #474544;
+       color: white;
+       background-color: black;
+       margin: 10px;
+     }
+
+     .dgrey:hover {
+       background-color: white;
+       border-style: solid;
+       border-color: black;
+       border-width: medium;
      }
 
      .lgrey {
-        color: #474c50;
+        color: white;
+        background-color: #474544;
+        margin: 10px;
       }
 
+      .lgrey:hover {
+         background-color: white;
+         border-style: solid;
+         border-color: #474544;
+         border-width: medium;
+       }
+
       .purple {
-          color: #660066;
+          color: white;
+          background-color: #660066;
+          margin: 10px;
         }
 
+        .purple:hover {
+            background-color: white;
+            border-style: solid;
+            border-color: #660066;
+            border-width: medium;
+          }
+
       .teal {
-           color: #008080;
+            color: white;
+           background-color: #8db6cd;
+           margin:10px
         }
+
+        .teal:hover {
+             background-color: white;
+             border-style: solid;
+             border-color: #8db6cd;
+             border-width: 10px;
+          }
 /*We want our menu to switch over to mobile-mode when the screensize is less than 1025px. Let's make the burger icon show when the menu is in mobile-mode, and for the menu-left to disappear.*/
 
 
@@ -95,7 +131,7 @@
   margin-left: auto;
   margin-right: auto;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 0.5px;
   padding: 20px;
 }
@@ -109,6 +145,12 @@
   grid-row: 1;
   grid-column: 2;
   margin: auto;
+}
+
+.logo:hover {
+  font-size: 80px;
+  color: magenta;
+  opacity: .5;
 }
 
 /*align-self is a lovely css property we get to use because the container is a grid. With it, our left-menu is now centered in the navbar.*/
@@ -136,6 +178,8 @@ nav a {
 
 
 nav a:hover {
+  font-size: 40px;
   color: magenta;
   opacity: .7;
+  border: 40px;
 }
