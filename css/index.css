@@ -31,16 +31,16 @@
     }
 
 
-    .pink {
-       color: #ff00ff;
+    .dgrey {
+       color: #333333;
      }
 
-     .blue {
-        color: #0ef2ee;
+     .purple {
+        color: #660066;
       }
 
-      .red {
-         color: #f67280;
+      .teal {
+         color: #008080;
        }
 
        .green {
