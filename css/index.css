@@ -32,19 +32,19 @@
 
 
     .dgrey {
-       color: #333333;
+       color: #474544;
      }
 
-     .purple {
-        color: #660066;
+     .lgrey {
+        color: #474c50;
       }
 
-      .teal {
-         color: #008080;
-       }
+      .purple {
+          color: #660066;
+        }
 
-       .green {
-          color: #98ff98;
+      .teal {
+           color: #008080;
         }
 /*We want our menu to switch over to mobile-mode when the screensize is less than 1025px. Let's make the burger icon show when the menu is in mobile-mode, and for the menu-left to disappear.*/
 
@@ -57,6 +57,7 @@
         .left-menu {
           display: none;
           font-size: 30px;
+          font-weight: bolder;
         }
 
         #nav-toggle:checked ~ .left-menu {
