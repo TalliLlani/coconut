@@ -94,6 +94,7 @@
           display: none;
           font-size: 30px;
           font-weight: bolder;
+          padding: 50px;
         }
 
         #nav-toggle:checked ~ .left-menu {
@@ -133,7 +134,7 @@
   font-size: 30px;
   font-weight: 500;
   letter-spacing: 0.5px;
-  padding: 20px;
+  padding: 8px;
 }
 
 /*The logo will be the tallest element in our navbar (1st row), so we should style it now, so we can see what kind of height we get for our left-menu.*/
