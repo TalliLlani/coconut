@@ -114,6 +114,9 @@
           width: 100%;
           text-align: center;
         }
+
+
+
 /*mobile menu styling*/
         #nav-toggle:checked ~ .left-menu a {
           display: block;
@@ -123,17 +126,10 @@
         }
 
         #nav-toggle:checked ~ .logo {
+          display: block;
           font-size: 80px;
           align-self: center; /*IS THIS line DOING ANYTHING*/
         }
-
-        #nav-toggle:checked ~ .dgrey {
-          display: block;
-           color: white;
-           width: 100%;
-           background-color: black;
-           margin: 10px;
-         }
 
          #nav-toggle:checked ~ .footer {
             display: block;
@@ -147,13 +143,18 @@
             opacity: .7;
           }
 
-
-          #nav-toggle:checked ~ footer a:hover {
-            text-align: center;
-            font-size: 50px;
-            color: magenta;
-            opacity: .7;
+          .footer-about {
+            display: block;
           }
+
+          .footer-blogs {
+            display: block;
+          }
+
+          .footer-contact {
+            display: block;
+          }
+
       }
 
 
