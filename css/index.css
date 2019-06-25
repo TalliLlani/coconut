@@ -120,8 +120,8 @@
 /*mobile menu styling*/
         #nav-toggle:checked ~ .left-menu a {
           display: block;
-          font-size: 50px;
           width: 100%;
+          font-size: 50px;
           text-align: center;
         }
 
@@ -172,7 +172,6 @@
 
 /*adding padding to the top and bottom of each left-menu link.*/
   .left-menu a {
-  /*padding: 40px 40px;*/
   margin-left: auto;
   margin-right: auto;
   font-size: 30px;
