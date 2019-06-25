@@ -97,6 +97,18 @@
           padding: 50px;
         }
 
+        .footer {
+          display: block;
+          width: 100%;
+          text-align: center;
+          background-color: black;
+          margin-left: auto;
+          margin-right: auto;
+          font-size: 50px;
+          color: magenta;
+          opacity: .7;
+        }
+
         #nav-toggle:checked ~ .left-menu {
           display: block;
           width: 100%;
@@ -112,10 +124,11 @@
 
         #nav-toggle:checked ~ .logo {
           font-size: 80px;
-          align-self: center; /*IS THIS DOING ANYTHING*/
+          align-self: center; /*IS THIS line DOING ANYTHING*/
         }
 
         #nav-toggle:checked ~ .dgrey {
+          display: block;
            color: white;
            width: 100%;
            background-color: black;
@@ -123,16 +136,24 @@
          }
 
          #nav-toggle:checked ~ .footer {
-           display: block;
+            display: block;
             width: 100%;
             text-align: center;
             background-color: black;
-            margin: 10px;
+            /*margin-left: auto;
+            margin-right: auto;*/
             font-size: 50px;
             color: magenta;
             opacity: .7;
           }
 
+
+          #nav-toggle:checked ~ footer a:hover {
+            text-align: center;
+            font-size: 50px;
+            color: magenta;
+            opacity: .7;
+          }
       }
 
 
@@ -217,6 +238,16 @@ nav a:hover {
   text-transform: uppercase;
   font-family: 'Shadows Into Light', cursive;
   margin: 80px;
+}
+
+/*homepg img*/
+
+.main-homepage-img {
+  display: block;
+  /*width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  paddin*/
 }
 
 /*page footer styling*/
