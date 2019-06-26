@@ -318,6 +318,12 @@ footer a:hover {
   border-radius: 50%;
 }
 
+.fa:hover {
+  font-size: 50px;
+  color: magenta;
+  /*opacity: .7;*/
+}
+
 .fa-facebook {
   background: white;
   color: black;
