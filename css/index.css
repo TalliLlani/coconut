@@ -280,10 +280,16 @@ footer {
 footer a:hover {
   font-size: 50px;
   color: magenta;
-  opacity: .7;
+  /*opacity: .7;*/
 }
 
-.footer-about {
+.connect {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+/*.footer-about {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
@@ -302,4 +308,27 @@ footer a:hover {
   text-decoration: none;
   text-transform: uppercase;
   margin: 20px;
+}*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: white;
+  color: black;
+}
+
+.fa-instagram {
+  background: white;
+  color: black;
+}
+
+.fa-pinterest {
+  background: white;
+  color: black;
 }
